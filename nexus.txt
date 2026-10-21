@@ -2,8 +2,8 @@ Replaces generic downed icons with specific status icons (pounced by hound, nett
 
 Thanks to [url=https://www.nexusmods.com/warhammer40kdarktide/users/1992757]GideonAriphael[/url] for his mod [url=https://www.nexusmods.com/warhammer40kdarktide/mods/520]Ring HUD[/url] for the ideas and hooks! :)
 
-[b]Options:[/b]
-
+[b]Mod Settings / Commands:[/b]
+[spoiler]
 [b]Panel Indicators[/b]
 - Icon Style [Glowing, Plain (Uses Status Colors), Plain (Teammate Color)]
 - Enable Background Tint
@@ -21,6 +21,7 @@ Thanks to [url=https://www.nexusmods.com/warhammer40kdarktide/users/1992757]Gide
 [b]Aggro Detection[/b]
 - Enable Aggro on Personal Panel & Team Panels
 - Aggro Glow Threat Options (Pox Burster, Disabler, Sniper, Captain/Twins, Monstrosity, Daemonhost, Bomber, Crusher/Mauler, Flamer, Rager)
+[/spoiler]
 
 [b]Links:[/b]
 [url=https://github.com/MaddyMarv/Player-State-Indicators-aka-Better-Downed-Icons-]Source Code[/url] | [url=https://www.nexusmods.com/profile/indicabunny]Nexus Mods Profile[/url] | [url=https://ko-fi.com/indicabunny]Support Me on Ko-fi[/url]
