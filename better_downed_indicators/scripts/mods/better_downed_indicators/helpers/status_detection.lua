@@ -20,13 +20,6 @@ local function _inventory(unit)
 	return uds and uds:read_component("inventory") or nil
 end
 
-local function _visual_loadout(unit)
-	return unit
-			and ScriptUnit.has_extension(unit, "visual_loadout_system")
-			and ScriptUnit.extension(unit, "visual_loadout_system")
-		or nil
-end
-
 local function _minigame_state(unit)
 	local uds = _uds(unit)
 	return uds and uds:read_component("minigame_character_state") or nil
@@ -35,11 +28,6 @@ end
 local function _scanning_component(unit)
 	local uds = _uds(unit)
 	return uds and uds:read_component("scanning") or nil
-end
-
-local function _weapon_action_component(unit)
-	local uds = _uds(unit)
-	return uds and uds:read_component("weapon_action") or nil
 end
 
 local function _interaction_component(unit)
@@ -112,7 +100,6 @@ function Status.for_unit(unit)
 		then
 			interaction_status = "helping"
 		elseif interaction_type then
-			local InteractionSettings = require("scripts/settings/interaction/interaction_settings")
 			local interaction_templates = require("scripts/settings/interaction/interaction_templates")
 			local template = interaction_templates[interaction_type]
 			if template and template.duration and template.duration > 0 then

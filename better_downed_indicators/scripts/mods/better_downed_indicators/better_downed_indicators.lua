@@ -51,8 +51,6 @@ mod:hook_safe(CLASS.AuspexEffects, "unwield", function(self)
 end)
 
 local COLOR_WHITE = { 255, 255, 255, 255 }
-local COLOR_YELLOW = { 255, 255, 255, 0 }
-local COLOR_RED = { 255, 255, 0, 0 }
 local ICON_SIZE_PERSONAL = 65
 local ICON_SIZE_TEAM = 55
 local ICON_SIZE_OFFSET = 20
@@ -264,17 +262,6 @@ local function apply_aggro_glow(self, player)
 		self:set_dirty()
 	end
 end
-
-local ICONS_WITH_DISTINCT_PLAIN = {
-	pounced = true,
-	consumed = true,
-	grabbed = true,
-	knocked_down = true,
-	netted = true,
-	ledge_hanging = true,
-	mutant_charged = true,
-	hogtied = true,
-}
 
 local function get_icon_path(detected_status, icon_style)
 	if icon_style == "plain" or icon_style == "plain_slot_color" then
@@ -861,8 +848,6 @@ mod.update = function(dt)
 	AggroDetection.scan(dt)
 end
 
-local InteractionSettings = require("scripts/settings/interaction/interaction_settings")
-
 mod:hook(
 	"InteracteeSystem",
 	"rpc_interaction_started",
@@ -993,9 +978,7 @@ mod:hook("PlayerInteracteeExtension", "stopped", function(func, self, result, in
 end)
 
 mod:hook("InteractorExtension", "cancel_interaction", function(func, self, t)
-	local interaction_component = self._interaction_component
 	local interactor_unit = self._unit
-	local target_unit = interaction_component and interaction_component.target_unit
 
 	if interactor_unit and mod._interaction_active_units[interactor_unit] then
 		mod._interaction_active_units[interactor_unit] = nil
@@ -1005,7 +988,6 @@ mod:hook("InteractorExtension", "cancel_interaction", function(func, self, t)
 end)
 
 mod:hook("InteractorExtension", "reset_interaction", function(func, self, reset_focus_unit)
-	local interaction_component = self._interaction_component
 	local interactor_unit = self._unit
 
 	if interactor_unit and mod._interaction_active_units[interactor_unit] then
@@ -1322,7 +1304,7 @@ local function _resolve_status_and_player(status)
 end
 
 mod.hud_studio_status_icon = function(status)
-	local detected_status, player = _resolve_status_and_player(status)
+	local detected_status = _resolve_status_and_player(status)
 	if not detected_status then
 		return nil
 	end
