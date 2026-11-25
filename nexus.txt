@@ -26,4 +26,4 @@ Thanks to [url=https://www.nexusmods.com/warhammer40kdarktide/users/1992757]Gide
 [/spoiler]
 
 [b]Links:[/b]
-[url=https://github.com/MaddyMarv/Player-State-Indicators-aka-Better-Downed-Icons-]Source Code[/url] | [url=https://www.nexusmods.com/profile/indicabunny]Nexus Mods Profile[/url] | [url=https://ko-fi.com/indicabunny]Support Me on Ko-fi[/url]
+[url=https://github.com/MaddyMarv/Player-State-Indicators]Source Code[/url] | [url=https://www.nexusmods.com/profile/indicabunny]Nexus Mods Profile[/url] | [url=https://ko-fi.com/indicabunny]Support Me on Ko-fi[/url]

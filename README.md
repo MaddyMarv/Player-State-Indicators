@@ -29,4 +29,4 @@ Thanks to [GideonAriphael](https://www.nexusmods.com/warhammer40kdarktide/users/
 - Aggro Glow Threats & Colors (Pox Burster, Disabler, Sniper, Captain/Twins, Monstrosity, Daemonhost, Grenadier/Tox Bomber, Crusher/Mauler, Flamer, Rager)
 </details>
 
-🔗 **Links:** [Source Code](https://github.com/MaddyMarv/Player-State-Indicators-aka-Better-Downed-Icons-) | [Nexus Mods Profile](https://www.nexusmods.com/profile/indicabunny) | [Support Me on Ko-fi](https://ko-fi.com/indicabunny)
+🔗 **Links:** [Source Code](https://github.com/MaddyMarv/Player-State-Indicators) | [Nexus Mods Profile](https://www.nexusmods.com/profile/indicabunny) | [Support Me on Ko-fi](https://ko-fi.com/indicabunny)
