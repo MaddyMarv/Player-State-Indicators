@@ -3,7 +3,7 @@ return {
 		en = "Better Downed Indicators",
 	},
 	mod_description = {
-		en = "Replaces generic downed icons with specific status icons (pounced by hound, netted by trapper, grabbed by mutant) and adds aggro borders.",
+		en = "Replaces generic downed icons with specific status icons (pounced by hound, netted by trapper, grabbed by mutant) and adds aggro borders. Supports HUD Studio.",
 	},
 	icon_style = {
 		en = "Icon Style",
