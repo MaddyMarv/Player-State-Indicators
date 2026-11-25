@@ -1,6 +1,6 @@
 return {
 	mod_name = {
-		en = "Better Downed Indicators",
+		en = "Player State Indicators",
 	},
 	mod_description = {
 		en = "Replaces generic downed icons with specific status icons (pounced by hound, netted by trapper, grabbed by mutant) and adds aggro borders. Supports HUD Studio.",

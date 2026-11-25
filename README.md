@@ -1,4 +1,4 @@
-### [Better Downed Indicators](https://www.nexusmods.com/warhammer40kdarktide/mods/635)
+### [Player State Indicators](https://www.nexusmods.com/warhammer40kdarktide/mods/635)
 <img width="479" height="512" alt="image" src="https://github.com/user-attachments/assets/6f3bece4-a4c1-4adc-bef4-5fc87fac4d29" />
 
 Replaces generic downed icons with specific status icons (pounced by hound, netted by trapper, grabbed by mutant) and adds aggro borders.
